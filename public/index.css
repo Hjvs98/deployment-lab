@@ -10,16 +10,18 @@ body{
 .product-pic {
     width: 35vh;
     height: 35vh;
-    display: flex;
-    flex-direction: column;
     margin-left: 10vh;
     margin-top: 5vh;
 }
-.vinyl {
+.products {
+    display: flex;
+    flex-direction: column;
+}
+.vinyl-prod {
     display: flex;
     flex-direction: row;
 }
-.cassette {
+.cassette-prod {
     display: flex;
     flex-direction: row;
 }
@@ -28,19 +30,25 @@ body{
     color: red;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2vh; 
-    max-width: 50 vh;
+    max-width: 50vh;
 }
 #cassette-text{
     text-align: left;
     color: red;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2vh; 
-    max-width: 50 vh;
+    max-width: 50vh;
 
 }
 #vinyl-btn{
  color: red;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 2vh; 
+ background-color: black;
 }
 #cassette-btn {
-color: red;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2vh; 
+    background-color: black;
 }
