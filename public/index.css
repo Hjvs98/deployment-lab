@@ -45,7 +45,7 @@ body{
 
 }
 #vinyl-btn{
-    max-height: fit-content;
+    max-height: 3vh;
  border: .25vh solid red;
  margin-left: 10vh;
  color: red;
@@ -54,7 +54,7 @@ body{
  background-color: black;
 }
 #cassette-btn {
-    max-height: fit-content;
+    max-height: 3vh;
     border: .25vh solid red;
     margin-left: 10vh;
     color: red;
