@@ -2,7 +2,7 @@ h1 {
  text-align: center;
  color: red;
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- font-size: 20vh;
+ font-size: 7vh;
 }
 body{
     background-color: black;
@@ -14,4 +14,33 @@ body{
     flex-direction: column;
     margin-left: 10vh;
     margin-top: 5vh;
+}
+.vinyl {
+    display: flex;
+    flex-direction: row;
+}
+.cassette {
+    display: flex;
+    flex-direction: row;
+}
+#vinyl-text{
+    text-align: left;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2vh; 
+    max-width: 50 vh;
+}
+#cassette-text{
+    text-align: left;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2vh; 
+    max-width: 50 vh;
+
+}
+#vinyl-btn{
+ color: red;
+}
+#cassette-btn {
+color: red;
 }
