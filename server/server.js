@@ -9,3 +9,9 @@ app.use(express.json());
 app.get("/", function (req, res) {
   res.sendFile(path.join(__dirname, "../public/index.html"));
 });
+
+const port = process.env.PORT || 3005;
+
+app.listen(port, () => {
+  console.log(`I'll be right by your side, 'til ${port}`);
+});
