@@ -2,12 +2,14 @@ h1 {
  text-align: center;
  color: red;
  font-family: 'Stranger Things', sans-serif;
- font-size: large;
+ font-size: 25vh;
 }
 body{
     background-color: black;
 }
 .product-pic {
-    width: 15vh;
-    height: 15vh;
+    width: 25vh;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
 }
