@@ -45,6 +45,7 @@ body{
 
 }
 #vinyl-btn{
+ border: 1vh solid red;
  margin-left: 10vh;
  color: red;
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -52,6 +53,7 @@ body{
  background-color: black;
 }
 #cassette-btn {
+    border: 1vh solid red;
     margin-left: 10vh;
     color: red;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
