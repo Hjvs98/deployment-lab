@@ -81,8 +81,9 @@ body{
 a {
   text-decoration: none;
   font-size: 1.5rem;
-  color: var(--color);
+  color: red;
   transition: all 200ms ease-out;
+  background-color: black;
 }
 
 a:hover {
