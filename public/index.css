@@ -39,6 +39,12 @@ body{
     font-size: 2vh; 
     max-width: 75vh;
     max-height: 18vh;
+    text-shadow:
+    3px 3px 0 #000,
+  -1px -1px 0 #000,  
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 #cassette-text{
     opacity: 1.00;
@@ -50,15 +56,14 @@ body{
     font-size: 2vh; 
     max-width: 75vh;
     max-height: 18vh;
+    text-shadow:
+    3px 3px 0 #000,
+  -1px -1px 0 #000,  
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
-.background-text {
-background-color: black;
-opacity: .3;
-max-height: 18vh ;
-max-width: 75vh;
-margin-top: 1vh;
-margin-left: 2vh;
-}
+
 :root {
     --font: red;
     --underline: red;
