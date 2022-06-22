@@ -31,8 +31,7 @@ body{
 }
 #vinyl-text{
     background-color: black;
-    opacity: 0.3;
-    background-size: contain;
+    background-size:cover;
     margin-top: 5vh;
     margin-left: 5vh;
     text-align: left;
@@ -43,7 +42,6 @@ body{
 }
 #cassette-text{
     background-color: black;
-    opacity: 0.3;
     background-size: contain;
     margin-top: 5vh;
     margin-left: 5vh;
