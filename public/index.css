@@ -94,11 +94,3 @@ a:hover ~ hr {
   width: 100%;
 }
 
-hr {
-  width: 0px;
-  height: 3px;
-  background: var(--underline);
-  border: var(--underline);
-  margin: 0px;
-  transition: width 450ms ease-out;
-}
