@@ -79,6 +79,7 @@ body{
     flex-direction: column;
   } */
 a {
+    max-height: 1.6rem;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-top: 5vh;
   margin-left: 10vh;
@@ -92,6 +93,7 @@ a {
 
 a:hover {
   font-size: 1.6rem;
+  max-height: 1.7rem;
 }
 
 a:hover ~ hr {
