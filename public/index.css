@@ -72,12 +72,12 @@ body{
     --font: red;
     --underline: red;
   }
- .hover-me {
+ /* .hover-me {
     width: 115px;
     margin: 0px auto;
     display: flex;
     flex-direction: column;
-  }
+  } */
 a {
   text-decoration: none;
   font-size: 1.5rem;
