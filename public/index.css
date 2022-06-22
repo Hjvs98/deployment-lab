@@ -68,24 +68,36 @@ body{
     font-size: 2vh; 
     background-color: black;
 }
-#cassette-btn {
-    text-decoration: none;
-    transition: all 200ms ease-out;
+:root {
+    --font: red;
+    --underline: red;
   }
-  
-  #cassette-btn:hover {
-    size: 5vh;
+ .hover-me {
+    width: 115px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
   }
-  
-  #cassette-btn:hover ~ hr {
-    width: 100%;
-  }
-  
-  hr {
-    width: 0px;
-    height: 3px;
-    background: var(--underline);
-    border: var(--underline);
-    margin: 0px;
-    transition: width 450ms ease-out;
-  }
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: var(--color);
+  transition: all 200ms ease-out;
+}
+
+a:hover {
+  font-size: 1.6rem;
+}
+
+a:hover ~ hr {
+  width: 100%;
+}
+
+hr {
+  width: 0px;
+  height: 3px;
+  background: var(--underline);
+  border: var(--underline);
+  margin: 0px;
+  transition: width 450ms ease-out;
+}
