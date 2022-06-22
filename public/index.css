@@ -30,6 +30,8 @@ body{
     flex-direction: row;
 }
 #vinyl-text{
+    background-color: black;
+    background-size: auto;
     margin-top: 5vh;
     margin-left: 5vh;
     text-align: left;
@@ -39,6 +41,8 @@ body{
     max-width: 75vh;
 }
 #cassette-text{
+    background-color: black;
+    background-size: auto;
     margin-top: 5vh;
     margin-left: 5vh;
     text-align: left;
