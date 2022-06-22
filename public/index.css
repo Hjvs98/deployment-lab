@@ -48,7 +48,7 @@ body{
     max-width: 75vh;
 
 }
-#vinyl-btn{
+/* #vinyl-btn{
     max-height: 3vh;
  border: .25vh solid red;
  margin-top: 5vh;
@@ -67,7 +67,7 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2vh; 
     background-color: black;
-}
+} */
 :root {
     --font: red;
     --underline: red;
@@ -79,6 +79,9 @@ body{
     flex-direction: column;
   } */
 a {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 5vh;
+  margin-left: 10vh;
   border: .25vh solid red;
   text-decoration: none;
   font-size: 1.5rem;
