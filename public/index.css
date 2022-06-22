@@ -39,6 +39,7 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2vh; 
     max-width: 75vh;
+    max-height: 35vh;
 }
 #cassette-text{
     background-color: black;
@@ -50,6 +51,8 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2vh; 
     max-width: 75vh;
+    max-height: 35vh;
+    
 
 }
 /* #vinyl-btn{
