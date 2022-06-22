@@ -30,6 +30,7 @@ body{
     flex-direction: row;
 }
 #vinyl-text{
+    opacity: 1.00;
     margin-top: 5vh;
     margin-left: 5vh;
     text-align: left;
@@ -40,6 +41,7 @@ body{
     max-height: 18vh;
 }
 #cassette-text{
+    opacity: 1.00;
     margin-top: 5vh;
     margin-left: 5vh;
     text-align: left;
@@ -54,8 +56,8 @@ background-color: black;
 opacity: .3;
 max-height: 18vh ;
 max-width: 75vh;
-margin-top: 5vh;
-margin-left: 10vh;
+margin-top: 1vh;
+margin-left: 2vh;
 }
 :root {
     --font: red;
